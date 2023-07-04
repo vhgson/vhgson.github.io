@@ -1,6 +1,7 @@
 ---
 title: My CV
 layout: about
+nav_order: 1
 ---
 # Vu Hoang Son
 
