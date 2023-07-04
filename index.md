@@ -41,7 +41,7 @@ June 2018 - Dec 2019
 
 ## SKILLS
 
-| **Programming Languages** | Objective-C, Swift(proficient), Java, JavaScript |
+| **Programming Languages** | Swift(proficient), Objective-C, Java, JavaScript |
 | **IDE** | Xcode, Android Studio, Visual Studio Code, IntelliJ IDEA, Eclipse, Sublime text |
 | **Database** | Sqlite, CoreData, Realm, SQL Server, MySQL, PostgreSQL |
 | **Design Pattern** | Singleton, Abstract Factory, Observer |
