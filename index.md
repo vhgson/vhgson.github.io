@@ -1,35 +1,71 @@
 ---
-title: Home
-layout: home
+title: My CV
+layout: about
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+# Vũ Hoàng Sơn  
+📧 Email: [vhgson@gmail.com](mailto:vhgson@gmail.com)  
+🔗 LinkedIn: [linkedin.com/in/vhgson](https://www.linkedin.com/in/vhgson/)  
+🌐 Portfolio: [vhgson.github.io](https://vhgson.github.io)  
 
-More specifically, the created site:
+---  
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+## 💼 Work Experience  
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+### iOS Developer — GSM (Smart & Sustainable Electric Taxi Services)  
+📍 Hanoi | 🗓️ Nov 2023 – Present  
+- Developed iOS applications for both users (order creation) and drivers (order management) using *RxSwift*, *RxSwift extensions*, and *RxCocoa*.  
+- Implemented a real-time order dispatch system, handling the full order cycle (request → route execution → payment flow) using SSE, gRPC, polling, and UDP sockets.  
+- Integrated Google Maps SDK: routes, custom markers, polylines/polygons, and interactive navigation.  
+- Utilized CoreLocation for precise driver location tracking and updates.  
+- Built CoreData-based translation sync, social sign-on (Apple, Google, Facebook), and media services (image upload & compression).  
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+---  
 
-To get started with creating a site, simply:
+### iOS Developer — FPT (Instant Camera Printer App)  
+📍 Hanoi | 🗓️ Jul 2021 – Dec 2022  
+- Built iOS app for BLE-connected devices to capture, edit, and instantly print photos with effects (stickers, text, frames, filters).  
+- Implemented real-time photo/camera filters using *GPUImage2* (OpenGL shaders for brightness, contrast, blending).  
+- Designed persistent data models with CoreData and supported schema migration.  
+- Optimized performance by managing concurrent tasks for downloads, syncing, and applying server-side effects.  
+- Integrated push notifications (Firebase, Leanplum) and analytics (Firebase Analytics, Amplitude).  
+- Contributed to CI/CD setup and collaborated in a 30-member team.  
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+---  
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+### iOS Developer — FPT (Disc Player)  
+📍 Hanoi | 🗓️ Jan 2021 – Jun 2021  
+- Developed iOS app enabling iPhone connectivity with external CD/DVD drives to browse, play, and back up files.  
+- Ported multimedia commands from Android to iOS and implemented full file operations (read, copy, delete, write, sort, filter).  
+- Applied ExternalAccessory framework and concurrency programming (GCD, DispatchGroup, Operation) for device communication and data handling.  
 
-----
+---  
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+### iOS Developer — FPT (Business Banking & Health Wearable Apps)  
+📍 Hanoi | 🗓️ Jan 2020 – Dec 2020  
+- Implemented authentication features: login, password update, and managing multiple methods.  
+- Built health & wearable app for sleep assistance, stress reduction, and health data tracking (EEG, heart rate, SPO2).  
+- Added Siri Shortcuts (IntentsUI) for voice assistant features.  
+- Managed reminders with UserNotifications and enabled media playback with *AVFoundation* and *MediaPlayer*.  
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+---  
+
+### Android Developer — FPT (AI Attendance System)  
+📍 Hanoi | 🗓️ 2018  
+- Designed and implemented AI face recognition (FaceNet) for automated attendance tracking.  
+- Built features for schedules, class information, and online/offline attendance.  
+- Wrote use case docs, test cases, and architecture design.  
+- 📰 Reference: [FPT News](https://fpt.edu.vn/tin-tuc/25276/sv-fpt-hien-ke-diem-danh-qua-nhan-dang-khuon-mat)  
+
+---  
+
+## 🎓 Education  
+FPT University, Hanoi — *Bachelor of Software Engineering (2018)*  
+
+---  
+
+## 🛠️ Additional Information  
+- Languages: Swift, SwiftUI, Java, Objective-C  
+- Technologies: Concurrency (GCD, Operations), Core Data, Core Location, ExternalAccessory, AVFoundation, RxSwift, GPUImage2, Realm, Git  
